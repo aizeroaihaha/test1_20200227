@@ -47,10 +47,11 @@ public class ShiroTest {
 		// 退出
 		subject.logout();
 		System.out.println("是否通过认证："+subject.isAuthenticated());
+		}
+	
+	
+	public void test1() {
+		System.out.println("Hello world!");
 		
-	
-	
-	
 	}
-
 }
